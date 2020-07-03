@@ -1,0 +1,157 @@
+/* header rules */
+header .row 
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* removing padding and margin and setting background image */
+header .row .l8
+    {
+        margin: 0;
+        padding: 0;
+        background: url(../../images/woman-in-black-shirt-using-black-headphones-3930068.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 700px;
+    }
+/* media quey that controls the size of the image */
+@media screen and (max-width: 670px)
+{
+    header .row .l8
+    {
+        min-height: 500px;
+    }
+}
+
+/* giving the second column a padding and min-height */
+header .row .l4
+{
+    padding: 2vw;
+    min-height: 700px;
+}
+
+/* padding form in the header and setting bgc-color of the input field to be green */
+header form .input-field input[type=text]
+{
+    background: green;
+    height: 2rem;
+}
+
+/* positioning the submit button */
+header form .input-field a
+{
+    position: relative;
+    top: -2.4rem;
+    left: 20rem;
+}
+
+/* social media icons at the bottom of the page */
+/* flexing the items to be in a row */
+.container .icon-link
+{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+}
+
+/*giving the icons a padding, font-size and color and the transition*/
+.container .icon-link a 
+{
+    margin: .5vw;
+    color: #000;
+    font-size: 2rem;
+    transition: color .5s linear;
+}
+
+/* changing the color to green when you hover over the social media icon */
+.container .icon-link a:hover
+{
+    color: green;
+}
+
+/* text inside the first column */
+header .row .l8 .container
+{
+    position: absolute;
+    top: 50%; left: 5%;
+}
+
+/* controlling each section */
+section
+{
+    margin: 4vw;
+    padding: 4vw;
+}
+
+/* icons and headers inside first section */
+.icon-header
+{
+    display: flex;
+    flex-direction: row;
+}
+
+/* removing some padding and margin, setting background image on the third section */
+.section-img
+{
+    margin: 0;
+    padding: 0;
+}
+.section-img .row
+{
+    margin: 0;
+    padding: 0;
+}
+
+.section-img .row .l10
+{
+    margin: 0;
+    padding: 0;
+    background: url(../../images/windows-2EwyKv4-03k-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+}
+
+@media screen and (max-width: 670px)
+{
+    .section-img .row .l10
+    {
+        min-height: 500px;
+    }
+}
+
+.card-on-img .card
+{
+    border-radius: 1rem;
+    position: absolute;
+    top: 6rem
+}
+/* ROund edge card in ##--section */
+.round-card-on-grey
+{
+    border-radius: 1rem;
+}
+
+/* projects */
+.projects
+{
+    background: url(../../images/photo-of-woman-using-her-laptop-935756.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+}
+@media screen and (max-width: 670px)
+{
+    .projects
+    {
+        min-height: 500px;
+    }
+}
+
+/* Numbers in project */
+.on-img
+{
+    position: absolute;
+    top: 12rem;
+}

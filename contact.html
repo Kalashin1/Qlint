@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kinanee Samson">
+    <meta name="about" content="personal website for kalashin">
+    <link href="lib/style/all.min.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="lib/style/materialize.min.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="lib/style/material-icons.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="lib/style/style.css" rel="stylesheet" type="text/css" media="screen">
+    <script src="lib/script/angular.min.js"></script>
+    <script src="lib/script/angular-route.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+<header style="position: fixed; width: 100%;">
+    <div class="row">
+        <nav class="nav-wrapper blue-grey darken-2">
+            <a class="sidenav-trigger" data-target="mobile-nav">
+                <i class="material-icons">menu</i>
+            </a>
+            <a href="" class="brand-logo white-text" style="margin: 0 1rem">Our Name</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html" class="white-text">Home</a></li>
+                <li><a href="#" class="white-text">About Us</a></li>
+                <li><a href="#" class="white-text">Pages</a></li>
+                <li><a href="#" class="white-text">Blogs</a></li>
+                <li><a href="#" class="white-text">Projects</a></li>
+                <li><a href="#" class="white-text btn green darken-2 z-depth-0">Contact Us</a></li>
+
+
+            </ul>
+            <!-- Responsive side nav for small screens -->
+            <ul class="sidenav" id="mobile-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+ <section class="section grey darken-2 scrollspy" id="contact" style="margin: 0;padding-top: 8rem; min-height: 800px;">
+            <div class="container">
+                <h2 class="white-text text-darken-2 left-align" style="padding: 4vw;">Contact us</h2>
+                <div class="row">
+                    <div class="col s12 l4">
+                        <h4 class="white-text text-lighten-2">Get in touch...</h4>
+                        <p class="white-text text-lighten-2">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum impedit ratione quidem dicta at
+                            tempore
+                            veniam.
+                        </p>
+                        <p class="white-text text-lighten-2">
+                            deleniti porro eaque voluptatum corporis architecto possimus atque amet iure maiores itaque
+                            sapiente.
+                            Veritatis?
+                        </p>
+                    </div>
+                    <div class="col s12 l6 offset-l2 white-text">
+                        <form>
+                            <div class="input-field">
+                                <input type="text" id="name">
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="email" id="email">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" id="subject">
+                                <label for="subject">Subject</label>
+                            </div>
+                            <div class="input-field">
+                                <textarea class="materialize-textarea" id="message" rows="30" cols="10"></textarea>
+                                <label for="message">Your Message</label>
+                            </div>
+                            <div class="input-field">
+                                <p>
+                                    <label>
+                                        <input type="checkbox" checked>
+                                        <span>Tick to accept the Terms and Conditions</span>
+                                    </label>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- footer -->
+        <footer class="page-footer blue-grey darken-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 l4">
+                        <h4 class="black-text">About us</h4>
+                        <p class="black-text">For man shall not live by bread alone but by every word that
+                            proceed out of the mout of Jehova. Our God is called God of truth.
+                            For man shall not live by bread alone but by every word that
+                            proceed out of the mout of Jehova. Our God is called God of truth.</p>
+                        <a class="btn green darken-3 white-text" href="#about-us">Read More</a>
+                    </div>
+                    <div class="col s12 l4">
+                        <h4 class="black-text">Navigation</h4>
+                        <nav class="nav-wrapper transparent z-depth-0">
+                            <ul style="display: flex; flex-direction: column;">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#blog">Blogs</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col s12 l4">
+                        <h4 class="black-text">NewsLetter</h4>
+                        <p class="black-text">For man shall not live by bread alone but by every word that
+                            proceed out of the mout of Jehova. Our God is called God of truth.
+                        </p>
+                        <form>
+                            <div class="input-field">
+                                <input type="text" id="email">
+                                <label for="email">Email</label>
+                                <input type="submit" class="btn white black-text z-depth-0" value="Register">
+                            </div>
+                        </form>
+                        <a href="" class="black-text" style="font-size: 2rem;"><i class="fab fa-facebook"></i></a>
+                        <a href="" class="black-text" style="font-size: 2rem;"><i class="fab fa-instagram-square"></i></a>
+                        <a href="" class="black-text" style="font-size: 2rem;"><i class="fab fa-twitter"></i></a>
+                        <a href="" class="black-text" style="font-size: 2rem;"><i class="fab fa-linkedin"></i></a>
+                        <a href="" class="black-text" style="font-size: 2rem;"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright transparent" style="border-top: solid 1px white">
+                <div class="container center-align">
+                    <p class="black-text">&copy; Our Company 2020</p>
+                </div>
+            </div>
+        </footer>
+<script src="lib/script/all.js"></script>
+<script src="lib/script/jquery-3.4.1.min.js"></script>
+<script src="lib/script/materialize.min.js"></script>
+<script src="lib/script/script.js"></script>
+</body>
+
+</html>
